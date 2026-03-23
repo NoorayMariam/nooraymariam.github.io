@@ -1,0 +1,59 @@
+Welcome Potatoes!
+Want to get cozy while learning? You've come to the right place!
+Your one place solution to courses, certificates, previous year papers.
+So...Let's get started!
+
+
+Just like your meal, we offer varietes on the plate!
+Our top picks are - Block Chain, HTML, CSS , JavaScript, ReactJS and Python.
+
+
+Click on the Signup button in the navigation bar, and Signup if you are first time user. 
+For subsequent using, click on the Login Button to redirect to Login Page.
+
+Think for few minutes and feel free to roam in your thougts.
+Find what interests you more and click on that course. Other courses will still be here regardless.
+
+Yes, absolutely you are free to take as many courses as you want.
+But don't overwhelm yourself with too much courses.
+
+How will I get my reply to my queries posted?
+You will be contacted via the email-id used in the message. Keep an eye in your inbox while our Media Handler will respond quickly.
+
+I have question papers of my year. Can I share it?
+That would be lovely! We encourage any material to help expand this open-domain. Thank you for reaching out.
+
+"The courses at FreeLearnHub are exceptional! I've gained valuable skills in a user-friendly environment."
+
+
+"The courses at FreeLearnHub are top-notch! I've learned so much in such an engaging platform."
+
+"FreeLearnHub's courses are fantastic! I've enjoyed every moment of my learning journey on this platform."    
+
+
+"The courses at FreeLearnHub exceeded my expectations! I've experienced tremendous growth in my skills and knowledge."
+
+"I highly recommend FreeLearnHub's courses! The quality of education and the support provided are truly commendable."  
+
+"FreeLearnHub's courses have been a game-changer for me! I've found the perfect platform for learning and self-improvement."
+
+An open-source platform to share and gain knowledge free of cost.
+
+
+
+
+
+
+
+
+ document.getElementById('inputfile')
+            .addEventListener('change', function () {
+ 
+                let fr = new FileReader();
+                fr.onload = function () {
+                    document.getElementById('output')
+                        .textContent = fr.result;
+                }
+ 
+                fr.readAsText(this.files[0]);
+            })
